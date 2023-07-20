@@ -1,5 +1,5 @@
 lc3: lc3.c
-	$(CXX) $^ -o $@
+	$(CC) $^ -o $@
 
 clean:
 	rm lc3
